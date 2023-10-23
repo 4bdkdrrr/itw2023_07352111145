@@ -142,13 +142,13 @@ table {
 body {
   font: 16px/28px arial, sans-serif;
   background-color: #eaeaea;
-  background-image: url(img/moroccan-flower.png);
+  background-image: url(img/y-so-serious-white.png);
 }
 
 .container {
   width: 800px;
   margin: auto;
-  background-color: white;
+  background-color: rgb(191, 189, 185);
 }
 
 .header {
@@ -169,22 +169,16 @@ body {
 
 .header a {
   text-decoration: none;
-  color: salmon;
-  padding: 3px;
-}
-
-.header a:hover {
-  background-color: lightskyblue;
-  color: white;
+  color: black;
 }
 
 .hero {
   height: 280px;
-  background-image: url(img/hero.png);
+  background-image: url(img/Hero1.jpg);
   background-size: cover;
-  background-position: 0 -110px;
-  border-top: 5px solid salmon;
-  border-bottom: 5px solid lightskyblue;
+  background-position: 0 -120px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid blue;
 }
 
 .content {
@@ -193,17 +187,16 @@ body {
 
 .content h2 {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 30px;
 }
 
 .content .penulis {
-  font-size: 11px;
-  margin-top: -5px;
+  font-size: 12px;
+  margin-top: -6px;
 }
 
-.content .penulis a {
-  color: salmon;
-  text-decoration: none;
+.content .Penulis a {
+  font-weight: bold;
 }
 
 .content p {
@@ -211,13 +204,33 @@ body {
   font-size: 14px;
 }
 
+.header a:hover {
+  font-weight: bold;
+  background-color: rgb(117, 116, 80);
+  color: white;
+  border-radius: 4px;
+}
+
+.p1 b {
+  font-weight: bold;
+}
+
+.p2 b {
+  font-weight: bold;
+}
+
+.p3 b {
+  font-weight: bold;
+}
+
 .footer {
-  background-color: #333;
-  padding: 20px;
+  background-color: grey;
+  padding: 18px;
 }
 
 .footer .copy {
   color: #eaeaea;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: bold;
 }
