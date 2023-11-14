@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<style>
+    /*.kotak {
+      box-shadow: <x-offset> <y-offset> <blur> <color> ;
+    } */
+    
+    .kotak {
+        box-shadow: 0 0 0 10px red, 0 0 0 20px green, 0 0 0 30px blue, 0 0 0 40px purple;
+        width: 150px;
+        height: 150px;
+        background-color: aqua;
+        margin: 75px auto;
+        transition: 2s;
+    }
+    
+    .kotak:hover {
+        border-radius: 75px;
+        transform: rotate(360deg) scale(4);
+    }
+</style>
+
+<body>
+    <div class="kotak"></div>
+</body>
+
+</html>
